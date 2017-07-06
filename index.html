@@ -1,92 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Introduce yourself in one line.">
+    <meta name="author" content="#">
 
-<meta charset="utf-8" />
-<meta name="description" content="Melvin Zhang" />
+    <title>Melvin Zhang</title>
 
-<link rel="openid.server"            href="http://www.myopenid.com/server" />
-<link rel="openid.delegate"          href="http://melvinzhang.myopenid.com/" />
-<link rel="openid2.local_id"         href="http://melvinzhang.myopenid.com" />
-<link rel="openid2.provider"         href="http://www.myopenid.com/server" />
-<meta http-equiv="X-XRDS-Location"   content="http://www.myopenid.com/xrds?username=melvinzhang.myopenid.com" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100italic,300italic,400italic,600italic,100,300,400,600">
 
-<title>Melvin Zhang</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<style>
-html, body {
-    width:100%;
-    height:100%;
-    padding:0px;
-    margin:0px;
-}
-
-div#mydiv {
-  position: absolute;
-  top: 15px;
-  right: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  color: #999999;
-}
-
-a:link {
-  color: #999999;
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #999999;
-}
-
-a:active {
-  text-decoration: none;
-  color: #999999;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #666666;
-}
-
-#flavors {
-	height: 100%;
-	width: 100%;
-	border-width: 0px;
-	vertical-align: middle;
-}
-</style>
-
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20261040-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-</head>
-
-<body>
-<iframe id="flavors" src="http://melvinzhang.flavors.me/">
-<p>It seems like your browser doesn't want to show my sleek landing page, but you can <a href="http://melvinzhang.flavors.me/">go here instead.</a> to see it. Thanks!</p>
-</iframe>
-
-<div id="mydiv">
-Go to my
-<a href="http://feeds.feedburner.com/melvinzhang" target="_blank">Lifestream</a> /
-<a href="http://www.facebook.com/melvinzhang" target="_blank">Facebook</a> /
-<a href="http://blog.melvinzhang.net" target="_blank">Blog</a> /
-<a href="http://www.goodreads.com/user/show/4252674-melvin-zhang" target="_blank">Readings</a> /
-<a href="http://www.diigo.com/user/Melvinzhang" target="_blank">Bookmarks</a>
-</div>
-</body>
+  </head>
+  <body>
+    <h2 class="title">Melvin Zhang</h2>
+    <p class="description">An avid programmer who enjoys designing and implementing novel algorithms. CTO @ Cosmiqo and maintainer of Magarena.</p>
+    <div class="menu">
+			<a class="link" href="https://github.com/melvinzhang/"><i class="fa fa-4x fa-github" aria-hidden="true"></i></a>
+			<a class="link" href="https://www.linkedin.com/in/melvinzhang/"><i class="fa fa-4x fa-linkedin-square" aria-hidden="true"></i></a>
+			<a class="link" href="https://www.facebook.com/melvinzhang/"><i class="fa fa-4x fa-facebook-square" aria-hidden="true"></i></a>
+			<a class="link" href="https://www.goodreads.com/user/show/4252674-melvin-zhang"><i class="fa fa-4x fa-book" aria-hidden="true"></i></a>
+			<a class="link" href="https://www.diigo.com/user/Melvinzhang"><i class="fa fa-4x fa-bookmark" aria-hidden="true"></i></a>
+    </div>
+		<p class="footer">Based on <a href="https://github.com/metheno/metheno-homepage">metheno-homepage</a></p>
+  </body>
 </html>
