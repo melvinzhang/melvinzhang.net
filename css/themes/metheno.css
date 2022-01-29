@@ -1,0 +1,15 @@
+/* Theme */
+
+main {
+	background: rgba(244, 244, 244, 1);;
+	color: rgba(80, 80, 80, 1);
+}
+
+.icons-social a {
+	color: rgba(80, 80, 80, 1);
+}
+
+.icons-social a svg path{
+	fill: rgba(80, 80, 80, 1);
+}
+
